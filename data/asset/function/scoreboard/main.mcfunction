@@ -1,8 +1,11 @@
 #> asset:scoreboard/main
 
 # 汎用スコアの定義
-  scoreboard objectives add Global dummy
-  scoreboard objectives add Temporary dummy
-  scoreboard objectives add Timer dummy
-  scoreboard objectives add Constant dummy
+  scoreboard objectives add Global dummy {'text':'Global','color':'yellow'}
+  scoreboard objectives add Temporary dummy {'text':'Temporary','color':'yellow'}
+  scoreboard objectives add Timer dummy {'text':'Timer','color':'yellow'}
+  scoreboard objectives add Constant dummy {'text':'Constant','color':'yellow'}
   function asset:scoreboard/constant
+
+# システム用
+  scoreboard objectives add PortalTimer dummy 'ポータル待機時間'
