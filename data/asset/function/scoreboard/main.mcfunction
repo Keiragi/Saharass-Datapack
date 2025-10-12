@@ -10,3 +10,4 @@
 # システム用
   scoreboard objectives add SneakTime custom:sneak_time 'スニーク時間'
   scoreboard objectives add PortalCooldown dummy 'ポータル待機時間'
+  scoreboard players set $DungeonLevel Global 1
