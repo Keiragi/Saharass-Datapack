@@ -3,8 +3,5 @@
     "using_item": {
       "trigger": "minecraft:using_item"
     }
-  },
-  "rewards": {
-    "function": "player:trigger/using_item/_"
   }
 }
