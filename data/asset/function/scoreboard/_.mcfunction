@@ -1,4 +1,4 @@
-#> asset:scoreboard/main
+#> asset:scoreboard/_
 
 # 汎用スコアの定義
   scoreboard objectives add Global dummy {'text':'Global','color':'yellow'}

@@ -4,4 +4,5 @@
   title @a actionbar "Reloaded!"
 
 # スコアボードの作成
-  function #asset:scoreboard/load
+  function asset:scoreboard/_
+
