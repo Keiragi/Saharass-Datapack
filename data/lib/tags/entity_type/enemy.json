@@ -1,0 +1,29 @@
+{
+  "replace": true,
+  "values": [
+    "#illager",
+    "#illager_friends",
+    "#sensitive_to_bane_of_arthropods",
+    "#sensitive_to_impaling",
+    "#sensitive_to_smite",
+    "#undead",
+    "#wither_friends",
+    "blaze",
+    "breeze",
+    "creaking",
+    "creeper",
+    "enderman",
+    "ender_dragon",
+    "ghast",
+    "hoglin",
+    "magma_cube",
+    "piglin",
+    "piglin_brute",
+    "ravager",
+    "shulker",
+    "slime",
+    "vex",
+    "warden",
+    "witch"
+  ]
+}
