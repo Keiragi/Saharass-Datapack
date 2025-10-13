@@ -19,8 +19,7 @@
 # システム用
   scoreboard objectives add SneakTime custom:sneak_time 'スニーク時間'
   scoreboard objectives add PortalCooldown dummy 'ポータル待機時間'
-  scoreboard objectives add SkillTimer_Count dummy 'スキルタイマー【カウント】'
-  scoreboard objectives add SkillTimer_Auto minecraft.custom:play_time 'スキルタイマー【自動】'
+  scoreboard objectives add UsingCount dummy '使用カウント'
   scoreboard players set $DungeonLevel Global 1
 
 # システム用

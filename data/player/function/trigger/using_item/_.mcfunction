@@ -1,6 +1,9 @@
 #> player:trigger/using_item/_
 # アイテムを右クリックで使用中に実行
 
+# 使用カウントの加算
+  scoreboard players add @s UsingCount 1
+
 # 武器の使用
   execute if items entity @s weapon.mainhand *[custom_data~{Weapon:1b}] run function player:trigger/using_item/weapon
 
