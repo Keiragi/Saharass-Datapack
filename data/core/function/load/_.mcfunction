@@ -6,3 +6,5 @@
 # スコアボードの作成
   function asset:scoreboard/_
 
+# チームの作成
+  function asset:team/_
