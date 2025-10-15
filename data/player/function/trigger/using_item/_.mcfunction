@@ -1,11 +1,8 @@
 #> player:trigger/using_item/_
 # アイテムを右クリックで使用中に実行
 
-# 使用カウントの加算
-  scoreboard players add @s UsingCount 1
+# 使用中なら実行/終了
+  execute if entity @s[advancements={player:trigger/using_item=true}] run return run function player:trigger/using_item/pressed
 
-# 武器の使用
-  execute if items entity @s weapon.mainhand *[custom_data~{Weapon:1b}] run function player:trigger/using_item/weapon
-
-# 初期化
-  advancement revoke @s only player:trigger/using_item
+# 離したときの処理
+  execute if score @s UsingCount matches 1.. run function player:trigger/using_item/released
