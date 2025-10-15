@@ -1,8 +1,8 @@
-#> player:class/water/active/parry/start
+#> player:class/water/active/skill1/start
 # 開始時に一度実行
 
 # MP足りない場合は失敗
-  execute if score @s MP matches ..9 run return run function player:class/water/active/parry/fail
+  execute if score @s MP matches ..9 run return run function player:class/water/active/skill1/fail
 
 # 演出
   playsound minecraft:item.armor.equip_gold player @s ~ ~ ~ 1 1

@@ -1,4 +1,4 @@
-#> player:class/water/active/parry/success/critical
+#> player:class/water/active/skill1/success/critical
 # パリィ成功【クリティカル】
 
 # 演出
