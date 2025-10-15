@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_model": "saharass:diamond_wand",
+                "minecraft:unbreakable": {},
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647,
+                  "animation": "bow",
+                  "sound": "minecraft:intentionally_empty",
+                  "has_consume_particles": false
+                },
+                "minecraft:custom_data": {
+                  "Weapon": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
