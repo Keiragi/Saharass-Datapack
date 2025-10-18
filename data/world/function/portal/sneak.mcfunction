@@ -14,8 +14,8 @@
   title @s subtitle [{text:"",bold:true},{text:"難易度 Lv. "},{score:{objective:Global,name:"$DungeonLevel"}}]
 
 # カウント後に転移
-  execute if score @s PortalCooldown matches 20 at @s run particle firework ~ ~1 ~ -0.2 -0.5 -0.2 0.1 30
-  execute if score @s PortalCooldown matches 20 at @s run particle end_rod ~ ~5 ~ 0.1 5 0.1 0.02 30
+  execute if score @s PortalCooldown matches 20 at @s run particle minecraft:firework ~ ~1 ~ -0.2 -0.5 -0.2 0.1 30
+  execute if score @s PortalCooldown matches 20 at @s run particle minecraft:end_rod ~ ~5 ~ 0.1 5 0.1 0.02 30
   execute if score @s PortalCooldown matches 20 in world:debug positioned 0 0 0 run function world:dungeon/enter/_
 
 # 進捗バー
