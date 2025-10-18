@@ -5,4 +5,4 @@
   execute if entity @s[advancements={player:trigger/using_item=true}] run return run function player:trigger/using_item/pressed
 
 # 離したときの処理
-  execute if score @s UsingCount matches 1.. run function player:trigger/using_item/released
+  execute if score @s Charge matches 0.. run function player:trigger/using_item/released

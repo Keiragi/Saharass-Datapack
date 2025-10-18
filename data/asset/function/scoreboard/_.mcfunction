@@ -22,6 +22,17 @@
   scoreboard objectives add UsingCount dummy '使用カウント'
   scoreboard players set $DungeonLevel Global 1
 
+# 戦闘
+  scoreboard objectives add Charge dummy "溜め"
+  scoreboard objectives add ChargeMax dummy "最大溜め"
+  scoreboard objectives add ChargeStage dummy "溜め段階"
+  scoreboard objectives add ChargeStageMax dummy "最大溜め段階"
+  scoreboard objectives add ChargeRatio dummy "溜め割合"
+  scoreboard objectives add PreviousChargeRatio dummy "ChargeRatioの値保存"
+  scoreboard objectives add BuffCharge dummy "バフ最大Charge"
+  scoreboard objectives add BonusCharge dummy "補正最大Charge"
+  scoreboard objectives add BaseCharge dummy "基礎最大Charge"
+
 # システム用
   scoreboard objectives add EXPGained dummy "獲得経験値"
   scoreboard objectives add EmeraldDisplay dummy "獲得E保存用"

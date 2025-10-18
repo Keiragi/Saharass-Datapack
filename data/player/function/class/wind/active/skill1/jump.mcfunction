@@ -13,9 +13,6 @@
 # 慣性をリセット
   tp @s @s
 
-# MP処理
-  scoreboard players remove @s MP 10
-
 # 攻撃判定
   execute as @e[type=#lib:enemy,distance=..5] run damage @s 5 minecraft:player_attack at ~ ~ ~
 
