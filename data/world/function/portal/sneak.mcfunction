@@ -19,22 +19,22 @@
   execute if score @s PortalCooldown matches 20 in world:debug positioned 0 0 0 run function world:dungeon/enter/_
 
 # 進捗バー
-  execute if score @s PortalCooldown matches 01 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－－－－－－－－－－－－'}
-  execute if score @s PortalCooldown matches 02 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－－－－－－－－－－－'}
-  execute if score @s PortalCooldown matches 03 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－－－－－－－－－－'}
-  execute if score @s PortalCooldown matches 04 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－－－－－－－－－'}
-  execute if score @s PortalCooldown matches 05 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－－－－－－－－'}
-  execute if score @s PortalCooldown matches 06 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－－－－－－－'}
-  execute if score @s PortalCooldown matches 07 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－－－－－－'}
-  execute if score @s PortalCooldown matches 08 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－－－－－'}
-  execute if score @s PortalCooldown matches 09 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－－－－'}
-  execute if score @s PortalCooldown matches 10 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－－－'}
-  execute if score @s PortalCooldown matches 11 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－－'}
-  execute if score @s PortalCooldown matches 12 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－'}
-  execute if score @s PortalCooldown matches 13 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－'}
-  execute if score @s PortalCooldown matches 14 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－'}
-  execute if score @s PortalCooldown matches 15 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－'}
-  execute if score @s PortalCooldown matches 16 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－'}
-  execute if score @s PortalCooldown matches 17 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－'}
-  execute if score @s PortalCooldown matches 18 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－'}
-  execute if score @s PortalCooldown matches 19 run title @s actionbar {'strikethrough':true,'color':'white','text':'－'}
+  execute if score @s PortalCooldown matches 01 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－－－－－－－－－－－'}
+  execute if score @s PortalCooldown matches 02 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－－－－－－－－－－'}
+  execute if score @s PortalCooldown matches 03 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－－－－－－－－－'}
+  execute if score @s PortalCooldown matches 04 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－－－－－－－－'}
+  execute if score @s PortalCooldown matches 05 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－－－－－－－'}
+  execute if score @s PortalCooldown matches 06 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－－－－－－'}
+  execute if score @s PortalCooldown matches 07 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－－－－－'}
+  execute if score @s PortalCooldown matches 08 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－－－－'}
+  execute if score @s PortalCooldown matches 09 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－－－'}
+  execute if score @s PortalCooldown matches 10 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－－'}
+  execute if score @s PortalCooldown matches 11 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－－'}
+  execute if score @s PortalCooldown matches 12 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－－'}
+  execute if score @s PortalCooldown matches 13 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－－'}
+  execute if score @s PortalCooldown matches 14 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－－'}
+  execute if score @s PortalCooldown matches 15 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－－'}
+  execute if score @s PortalCooldown matches 16 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－－'}
+  execute if score @s PortalCooldown matches 17 run title @s actionbar {'strikethrough':true,'color':'white','text':'－－'}
+  execute if score @s PortalCooldown matches 18 run title @s actionbar {'strikethrough':true,'color':'white','text':'－'}
+  execute if score @s PortalCooldown matches 19 run title @s actionbar {'strikethrough':true,'color':'white','text':''}
