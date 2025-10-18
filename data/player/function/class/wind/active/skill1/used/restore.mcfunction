@@ -3,6 +3,7 @@
 
 # 使用済みのタグをリセット
   tag @s remove Acrobat_Used
+  tag @s remove Acrobat_Falling
 
 # 演出
   particle minecraft:poof ~ ~0.5 ~ 1 0 1 0 40
