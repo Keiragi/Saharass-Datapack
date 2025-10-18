@@ -12,6 +12,7 @@
 # レベル数値加算
   xp set @s 0 levels
   execute store result storage player: XPBar.Level int 1 run scoreboard players get @s ChargeStage
+  execute if score @s ChargeStageMax matches 1 run data modify storage player: XPBar.Level set value 0
   function player:status/charge/bar/set_level with storage player: XPBar
 
 # Chargeに変化がある時だけfunctionを常時実行
