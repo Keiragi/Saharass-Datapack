@@ -32,6 +32,7 @@
   scoreboard objectives add BuffCharge dummy "バフ最大Charge"
   scoreboard objectives add BonusCharge dummy "補正最大Charge"
   scoreboard objectives add BaseCharge dummy "基礎最大Charge"
+  scoreboard objectives add EvadeCooldown dummy "回避待ち時間"
 
 # システム用
   scoreboard objectives add EXPGained dummy "獲得経験値"
