@@ -16,23 +16,23 @@
   summon minecraft:block_display 8.5 64.30 27.5 {UUID:[I; 2106,5308417,11,2],block_state: {Name: "minecraft:beacon"}, brightness: {block: 15, sky: 15}, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.4f, 0.4f, 0.4f], translation: [-0.2f, -0.2f, -0.2f]}}
   summon minecraft:painting 6.50 65.50 27.03 {UUID:[I; 2106,5308417,11,3],variant: "minecraft:tides",  block_pos: [I; 6, 65, 27], Invulnerable: 1b, facing: 0b, Rotation: [0.0f, 0.0f]}
   summon minecraft:interaction 6.65 64.73 26.98 {UUID:[I; 2106,5308417,11,10], height: 0.164f, width: 0.1655f, data:{Function:"world:home/map_board/current"}}
-  summon minecraft:interaction 7.14 64.96 26.91 {UUID:[I; 2106,5308417,11,11], height: 0.305f, width: 0.3050f}
-  summon minecraft:interaction 6.07 64.80 26.68 {UUID:[I; 2106,5308417,11,12], height: 0.445f, width: 0.7740f}
-  summon minecraft:interaction 6.39 64.19 26.84 {UUID:[I; 2106,5308417,11,13], height: 0.492f, width: 0.4460f}
-  summon minecraft:interaction 5.96 64.28 26.88 {UUID:[I; 2106,5308417,11,14], height: 0.258f, width: 0.3750f}
-  summon minecraft:interaction 7.12 64.23 26.70 {UUID:[I; 2106,5308417,11,15], height: 0.350f, width: 0.7275f}
-  summon minecraft:interaction 7.57 64.96 26.82 {UUID:[I; 2106,5308417,11,16], height: 1.070f, width: 0.4950f}
-  summon minecraft:interaction 7.64 66.03 26.77 {UUID:[I; 2106,5308417,11,17], height: 0.428f, width: 0.6000f}
-  summon minecraft:interaction 7.36 66.46 26.87 {UUID:[I; 2106,5308417,11,18], height: 0.398f, width: 0.3990f}
-  summon minecraft:interaction 6.84 66.34 26.79 {UUID:[I; 2106,5308417,11,19], height: 0.494f, width: 0.5450f}
-  summon minecraft:interaction 6.10 66.46 26.78 {UUID:[I; 2106,5308417,11,20], height: 0.375f, width: 0.6000f}
-  summon minecraft:interaction 6.32 65.62 26.80 {UUID:[I; 2106,5308417,11,21], height: 0.493f, width: 0.5400f}
-  summon minecraft:interaction 5.81 65.69 26.91 {UUID:[I; 2106,5308417,11,22], height: 0.328f, width: 0.3060f}
-  summon minecraft:interaction 5.38 65.57 26.86 {UUID:[I; 2106,5308417,11,23], height: 0.516f, width: 0.4230f}
-  summon minecraft:interaction 5.55 64.42 26.90 {UUID:[I; 2106,5308417,11,24], height: 0.350f, width: 0.3300f}
-  summon minecraft:interaction 7.46 64.61 26.90 {UUID:[I; 2106,5308417,11,25], height: 0.350f, width: 0.3300f}
-  summon minecraft:interaction 5.57 66.09 26.87 {UUID:[I; 2106,5308417,11,26], height: 0.398f, width: 0.3900f}
-  summon minecraft:interaction 5.55 65.22 26.93 {UUID:[I; 2106,5308417,11,27], height: 0.28f,  width: 0.2800f}
+  summon minecraft:interaction 7.14 64.96 26.91 {UUID:[I; 2106,5308417,11,11], height: 0.305f, width: 0.3050f, data:{Function:"world:home/map_board/portal"}}
+  summon minecraft:interaction 6.07 64.80 26.68 {UUID:[I; 2106,5308417,11,12], height: 0.445f, width: 0.7740f, data:{Function:"world:home/map_board/tavern"}}
+  summon minecraft:interaction 6.39 64.19 26.84 {UUID:[I; 2106,5308417,11,13], height: 0.492f, width: 0.4460f, data:{Function:"world:home/map_board/shop"}}
+  summon minecraft:interaction 5.96 64.28 26.88 {UUID:[I; 2106,5308417,11,14], height: 0.258f, width: 0.3750f, data:{Function:"world:home/map_board/home"}}
+  summon minecraft:interaction 7.12 64.23 26.70 {UUID:[I; 2106,5308417,11,15], height: 0.350f, width: 0.7275f, data:{Function:"world:home/map_board/gate"}}
+  summon minecraft:interaction 7.57 64.96 26.82 {UUID:[I; 2106,5308417,11,16], height: 1.070f, width: 0.4950f, data:{Function:"world:home/map_board/inn"}}
+  summon minecraft:interaction 7.64 66.03 26.77 {UUID:[I; 2106,5308417,11,17], height: 0.428f, width: 0.6000f, data:{Function:"world:home/map_board/depository"}}
+  summon minecraft:interaction 7.36 66.46 26.87 {UUID:[I; 2106,5308417,11,18], height: 0.398f, width: 0.3990f, data:{Function:"world:home/map_board/cafe"}}
+  summon minecraft:interaction 6.84 66.34 26.79 {UUID:[I; 2106,5308417,11,19], height: 0.494f, width: 0.5450f, data:{Function:"world:home/map_board/library"}}
+  summon minecraft:interaction 6.10 66.46 26.78 {UUID:[I; 2106,5308417,11,20], height: 0.375f, width: 0.6000f, data:{Function:"world:home/map_board/church"}}
+  summon minecraft:interaction 6.32 65.62 26.80 {UUID:[I; 2106,5308417,11,21], height: 0.493f, width: 0.5400f, data:{Function:"world:home/map_board/town_hall"}}
+  summon minecraft:interaction 5.81 65.69 26.91 {UUID:[I; 2106,5308417,11,22], height: 0.328f, width: 0.3060f, data:{Function:"world:home/map_board/blacksmith"}}
+  summon minecraft:interaction 5.38 65.57 26.86 {UUID:[I; 2106,5308417,11,23], height: 0.516f, width: 0.4230f, data:{Function:"world:home/map_board/guide"}}
+  summon minecraft:interaction 5.55 64.42 26.90 {UUID:[I; 2106,5308417,11,24], height: 0.350f, width: 0.3300f, data:{Function:"world:home/map_board/appraiser"}}
+  summon minecraft:interaction 7.46 64.61 26.90 {UUID:[I; 2106,5308417,11,25], height: 0.350f, width: 0.3300f, data:{Function:"world:home/map_board/trade_house"}}
+  summon minecraft:interaction 5.57 66.09 26.87 {UUID:[I; 2106,5308417,11,26], height: 0.398f, width: 0.3900f, data:{Function:"world:home/map_board/minesite"}}
+  summon minecraft:interaction 5.55 65.22 26.93 {UUID:[I; 2106,5308417,11,27], height: 0.28f,  width: 0.2800f, data:{Function:"world:home/map_board/campfire"}}
 
 
 # 貿易商
