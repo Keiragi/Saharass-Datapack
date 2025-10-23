@@ -8,8 +8,9 @@
 
 
 # 落下中を検知
-  execute unless data entity @s {fall_distance:0.0d} run tag @s add Acrobat_Falling
+#execute unless data entity @s {fall_distance:0.0d} run tag @s add Acrobat_Falling
+  execute unless predicate lib:is_not_falling run tag @s add Acrobat_Falling
 
 # 着地したら回復 + 攻撃判定
-  execute if entity @s[tag=Acrobat_Falling] if data entity @s {fall_distance:0.0d} run return run function player:class/wind/active/skill1/used/restore
+  execute if entity @s[tag=Acrobat_Falling] if predicate lib:is_not_falling run return run function player:class/wind/active/skill1/used/restore
   execute if predicate lib:is_on_ground run function player:class/wind/active/skill1/used/restore

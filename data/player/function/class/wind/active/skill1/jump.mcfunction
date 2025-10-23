@@ -3,6 +3,7 @@
 
 # 判別タグ
   tag @s remove Acrobat_Enabled
+  tag @s remove Acrobat_Falling
   tag @s add Acrobat_Used
 
 # 演出
