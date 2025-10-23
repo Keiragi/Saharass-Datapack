@@ -22,6 +22,9 @@
   scoreboard objectives add UsingCount dummy '使用カウント'
   scoreboard players set $DungeonLevel Global 1
 
+# 街
+  scoreboard objectives add MusicCount dummy '音楽カウント'
+
 # 戦闘
   scoreboard objectives add Charge dummy "溜め"
   scoreboard objectives add ChargeMax dummy "最大溜め"

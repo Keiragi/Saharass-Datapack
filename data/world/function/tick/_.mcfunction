@@ -9,3 +9,6 @@
 # 村人がプレイヤーの方向を向く
   execute as @e[type=minecraft:villager] at @s if entity @a[distance=..8] run rotate @s facing entity @a[sort=nearest,limit=1,gamemode=!spectator]
   execute as @e[type=minecraft:wandering_trader] at @s if entity @a[distance=..8] run rotate @s facing entity @a[sort=nearest,limit=1,gamemode=!spectator]
+
+# 音楽カウント
+  execute if score $StartMenu MusicCount matches 0.. run function world:home/music/menu/_
