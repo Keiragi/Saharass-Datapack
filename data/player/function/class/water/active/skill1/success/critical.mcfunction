@@ -7,5 +7,6 @@
   playsound minecraft:entity.zombie.attack_iron_door player @a[distance=..16] ~ ~ ~ 0.5 1.5
   playsound minecraft:block.anvil.place player @a[distance=..16] ~ ~ ~ 0.5 2
 
-# MP回復
-  scoreboard players add @s MP 10
+# 妨害追加
+  effect give @e[type=#lib:enemy,distance=..4] minecraft:slowness 2 255
+  effect give @e[type=#lib:enemy,distance=..4] minecraft:weakness 2 255

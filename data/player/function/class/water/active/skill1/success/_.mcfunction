@@ -2,7 +2,7 @@
 # パリィ成功
 
 # カウンターダメージ
-  execute as @e[type=#lib:enemy,distance=..3] run damage @s 10 minecraft:player_attack at ~ ~ ~
+  execute as @e[type=#lib:enemy,distance=..4] run damage @s 10 minecraft:player_attack at ~ ~ ~
 
 # 演出
   particle minecraft:crit ~ ~1.5 ~ 0 0 0 0.5 5 force
