@@ -11,7 +11,7 @@
   playsound minecraft:block.bubble_column.whirlpool_inside player @a[distance=..16] ~ ~ ~ 1 1
 
 # タイミングが良ければクリティカル
-  execute if score @s UsingCount matches 01..07 run function player:class/water/active/skill1/success/critical
+  execute if score @s Charge matches 01..07 run function player:class/water/active/skill1/success/critical
 
 # 耐性解除
   tp @s @s
