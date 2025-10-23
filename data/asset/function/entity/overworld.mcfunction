@@ -3,7 +3,6 @@
 # 汎用エンティティ 83a-51-1-X-X
   summon minecraft:marker 0.0 0.0 0.0 {UUID:[I; 2106,5308417,0,0]}
   summon minecraft:armor_stand 0.0 0.0 0.0 {UUID:[I; 2106,5308417,0,1],Marker:1b,Invisible:1b}
-  setblock 0 0 0 minecraft:white_shulker_box
 
 # 撮影用
   summon minecraft:armor_stand 33.29 91.53 38.44 {UUID:[I; 2106,5308417,0,2],Invulnerable: 1b, Rotation: [146.27f, 29.89f], attributes: [{id: "minecraft:scale", base: 0.0625d}], Tags: ["Spectator"], Invisible: 1b, NoGravity: 1b, NoBasePlate: 0b, DisabledSlots: 0, ShowArms: 0b, FallFlying: 0b, Small: 1b}
@@ -92,22 +91,6 @@
     summon minecraft:interaction 48.50 68.5625 -24.50 {UUID:[I; 2106,5308417,16,8],Tags: ["tetoshia"], height: 1.0f, Invulnerable: 1b, response: 0b, width: 0.3f, Rotation: [0.0f, 0.0f]}
     summon minecraft:armor_stand 48.50 68.5625 -24.50 {UUID:[I; 2106,5308417,16,9], Invulnerable: 1b, Brain: {memories: {}}, Pose: {LeftLeg: [0.0f, 0.0f, 354.0f], LeftArm: [0.0f, 0.0f, 354.0f], RightArm: [0.0f, 0.0f, 6.0f], RightLeg: [0.0f, 0.0f, 6.0f], Head: [354.0f, 0.0f, 0.0f]}, Rotation: [-45.0f, 0.0f], HurtByTimestamp: 0, attributes: [{id: "minecraft:armor", base: 0.0d}, {id: "minecraft:armor_toughness", base: 0.0d}, {id: "minecraft:movement_speed", base: 0.7d}, {id: "minecraft:waypoint_transmit_range", base: 0.0d}], Invisible: 0b, Motion: [0.0d, -0.04760748099525583d, 0.0d], NoBasePlate: 1b, equipment: {head: {id: "minecraft:player_head", count: 1, components: {"minecraft:profile": {name: "tetoshia", id: [I; 1620837115, 2128168856, -1349963631, -83639420], properties: [{value: "ewogICJ0aW1lc3RhbXAiIDogMTcyODI2ODQwODI3NCwKICAicHJvZmlsZUlkIiA6ICI2MDljMDJmYjdlZDk0Nzk4YWY4OTMwOTFmYjAzYzM4NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0ZXRvc2hpYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85MmJmY2Q3M2YxOTI1ZGVjZjUzMDczMmQ0NjRkMTVmODRhNTY5YTY1MjhkMWRlN2NiOWVjZDI0MzYyNjExYmNhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=", name: "textures", signature: "RhrA/6qzglfEMwg2DZy6V19rfumqvw+l+pp9PIEp2feHOCZ/uWfW9oSPzF2GW3e9sA2ZmKxHMrrNtS8w5Dub45rCJZwhw7eFKMCRqQuQxecL9620YwAq6/MmmH61PEx06xWvZbu0APxuvlnWqBKtFMUYYl7AVTaAgyvG9s11J86gnreC/nVBXB1A/dLsFy4y/7wSx6foTsk4CNYYeLclgXjwMkv9N/6GSasiIERpIVm8ktJ14i2gI0Wgqc8gryc3LDLxyvu3/hHr4lZ2hz3ug+JjDsnGE55z8jOwOJ+jRYg2oowJL/+tdT4DSkQC+atwJx0vsm3ZgSSFNaoWKCC5MoR0Cp3NhqhlCCoG63MRVdSWGFUkfwqZuFb34iWyrpeRFI2/3FcdFaslD23wGAX4GiroTO7ZQ5MMN1KjyTw7hVyJEhoYl12Mbsl2KUETztIJthMjxHwlRoDEJn/hdZoGgmit9E9KlqRVJdVzJ4HPc/NRYoQwJsjaOn6yDH048qcS5Klgo7FVwyqZ8EjY3cIaOMgKr6mvNRa4K4OWUDAiAuSsEkg0GRdy7BLFprw7ZiLnQuXoyn2Qr5CSDajyrP9YuC+XlgMXt80e4R6o+Qy9iq5iHHvb9VMQTdiavLjoKAYXBuxWacVGB8KljaYzeuV0m10iwGwgCyyprr7sJ9BSMWA="}]}, "minecraft:note_block_sound": "minecraft:entity.cat.stray_ambient"}}, feet: {id: "minecraft:leather_boots", count: 1, components: {"minecraft:dyed_color": 952064}}, legs: {id: "minecraft:leather_leggings", count: 1, components: {"minecraft:dyed_color": 1564160, "minecraft:trim": {material: "minecraft:quartz", pattern: "minecraft:tide"}}}, chest: {id: "minecraft:leather_chestplate", count: 1, components: {"minecraft:dyed_color": 1699840, "minecraft:trim": {material: "minecraft:iron", pattern: "minecraft:dune"}}}}, DisabledSlots: 4144959, ShowArms: 1b, FallFlying: 0b, Small: 1b}
     summon minecraft:interaction 53.50 68.99 -21.50 {UUID:[I; 2106,5308417,16,10],height: 0.4f, Invulnerable: 1b, response: 0b, width: 0.4f, Rotation: [0.0f, 0.0f]}
-    setblock 52 69 -20 minecraft:scaffolding[bottom=false,distance=0,waterlogged=false]
-    setblock 52 68 -20 minecraft:birch_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
-    setblock 51 70 -25 minecraft:oak_pressure_plate[powered=false]
-    setblock 51 69 -25 minecraft:spruce_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]
-    setblock 51 71 -24 minecraft:lever[face=ceiling,facing=west,powered=false]
-    setblock 52 71 -25 minecraft:oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
-    setblock 52 69 -25 minecraft:birch_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
-    setblock 52 68 -24 minecraft:jungle_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
-    setblock 52 68 -23 minecraft:bamboo_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
-    setblock 53 71 -22 minecraft:oak_fence_gate[facing=east,in_wall=false,open=false,powered=false]
-    setblock 49 70 -23 minecraft:warped_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]
-    setblock 50 68 -23 minecraft:jungle_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
-    setblock 48 71 -24 minecraft:warped_fence_gate[facing=west,in_wall=false,open=true,powered=false]
-    setblock 48 68 -24 minecraft:campfire[facing=west,lit=false,signal_fire=false,waterlogged=false]
-    setblock 49 69 -25 minecraft:spruce_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
-    setblock 53 68 -22 minecraft:cherry_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
 
   # 廊下
     summon minecraft:interaction 51.50 74.00 20.50 {UUID:[I; 2106,5308417,16,11],height: 0.4f, Invulnerable: 1b, response: 0b, width: 0.4f, Rotation: [0.0f, 0.0f]}
@@ -129,8 +112,6 @@
     summon minecraft:interaction 46.50 79.00 -7.00 {UUID:[I; 2106,5308417,16,21],height: 2.0f, Invulnerable: 1b, response: 0b, width: 2.0f, Rotation: [0.0f, 0.0f]}
     summon minecraft:painting 42.50 81.50 -5.97 {UUID:[I; 2106,5308417,16,22],variant: "minecraft:endboss",  block_pos: [I; 42, 81, -6], Invulnerable: 1b, facing: 0b, Rotation: [0.0f, 0.0f], Fire: -1s}
     summon minecraft:item_frame 44.50 80.03 -10.50 {UUID:[I; 2106,5308417,16,23], Item: {id: "minecraft:writable_book", count: 1}, Invisible: 0b, ItemDropChance: 1.0f, ItemRotation: 6b, block_pos: [I; 44, 80, -11], Invulnerable: 1b, Fixed: 1b, Rotation: [0.0f, -90.0f], Facing: 1b, Fire: -1s}
-    setblock 36 85 -4 minecraft:spruce_door[facing=east,half=lower,hinge=right,open=false,powered=false]
-    setblock 36 86 -4 minecraft:spruce_door[facing=east,half=upper,hinge=right,open=false,powered=false]
 
 
 # 採掘場

@@ -11,3 +11,6 @@
 
 # エンティティ召喚
   execute in minecraft:overworld run function asset:entity/overworld
+
+# ブロック再設置
+  execute in minecraft:overworld run function asset:block/overworld
