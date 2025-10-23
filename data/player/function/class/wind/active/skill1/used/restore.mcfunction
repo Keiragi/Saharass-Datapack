@@ -11,3 +11,7 @@
 
 # 近くの敵にダメージ
   execute as @e[type=#lib:enemy,distance=..5] run damage @s 5 minecraft:player_attack at ~ ~ ~
+
+# 耐性解除
+  attribute @s minecraft:knockback_resistance modifier remove player:acrobat_knockback_resistance
+  attribute @s minecraft:explosion_knockback_resistance modifier remove player:acrobat_explosion_knockback_resistance
