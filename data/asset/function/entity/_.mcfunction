@@ -1,11 +1,12 @@
 #> asset:entity/_
 
 # 汎用エンティティ 83a-51-1-X-X
-  execute in overworld run summon marker 0.0 0.0 0.0 {UUID:[I; 2106,5308417,0,0]}
-  execute in overworld run summon armor_stand 0.0 0.0 0.0 {UUID:[I; 2106,5308417,0,1],Marker:1b,Invisible:1b}
-  execute in overworld run setblock 0 0 0 white_shulker_box
+  summon minecraft:marker 0.0 0.0 0.0 {UUID:[I; 2106,5308417,0,0]}
+  summon minecraft:armor_stand 0.0 0.0 0.0 {UUID:[I; 2106,5308417,0,1],Marker:1b,Invisible:1b}
+  setblock 0 0 0 minecraft:white_shulker_box
 
-summon minecraft:armor_stand 33.29 91.53 38.44 {Invulnerable: 1b, Rotation: [146.27f, 29.89f], attributes: [{id: "minecraft:scale", base: 0.0625d}], Tags: ["Spectator"], Invisible: 1b, NoGravity: 1b, NoBasePlate: 0b, DisabledSlots: 0, ShowArms: 0b, FallFlying: 0b, Small: 1b}
+# 撮影用
+  summon minecraft:armor_stand 33.29 91.53 38.44 {UUID:[I; 2106,5308417,0,2],Invulnerable: 1b, Rotation: [146.27f, 29.89f], attributes: [{id: "minecraft:scale", base: 0.0625d}], Tags: ["Spectator"], Invisible: 1b, NoGravity: 1b, NoBasePlate: 0b, DisabledSlots: 0, ShowArms: 0b, FallFlying: 0b, Small: 1b}
 
 # ポータル
   summon minecraft:block_display 27 64 16 {UUID:[I; 2106,5308417,10,1],block_state: {Name: "minecraft:respawn_anchor", Properties: {charges: "4"}}, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.5f, 1.0f, 1.5f], translation: [-0.75f, 0.0f, -0.75f]}, view_range: 2.0f}
