@@ -10,4 +10,4 @@
   function asset:team/_
 
 # エンティティ召喚
-  function asset:entity/_
+  execute in minecraft:overworld run function asset:entity/overworld

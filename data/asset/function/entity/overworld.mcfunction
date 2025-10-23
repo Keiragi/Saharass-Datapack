@@ -1,4 +1,4 @@
-#> asset:entity/_
+#> asset:entity/overworld
 
 # 汎用エンティティ 83a-51-1-X-X
   summon minecraft:marker 0.0 0.0 0.0 {UUID:[I; 2106,5308417,0,0]}
