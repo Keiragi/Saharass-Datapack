@@ -6,3 +6,4 @@
 
 # 各属性のアクティブスキル処理へ
   execute if entity @s[team=Ele_Water] run function player:class/water/active/skill1/_
+  execute if entity @s[team=Ele_Earth] run function player:class/earth/active/skill1/_
