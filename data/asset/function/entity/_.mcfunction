@@ -1,0 +1,172 @@
+#> asset:entity/_
+
+# 汎用エンティティ 83a-51-1-X-X
+  execute in overworld run summon marker 0.0 0.0 0.0 {UUID:[I; 2106,5308417,0,0]}
+  execute in overworld run summon armor_stand 0.0 0.0 0.0 {UUID:[I; 2106,5308417,0,1],Marker:1b,Invisible:1b}
+  execute in overworld run setblock 0 0 0 white_shulker_box
+
+summon minecraft:armor_stand 33.29 91.53 38.44 {Invulnerable: 1b, Rotation: [146.27f, 29.89f], attributes: [{id: "minecraft:scale", base: 0.0625d}], Tags: ["Spectator"], Invisible: 1b, NoGravity: 1b, NoBasePlate: 0b, DisabledSlots: 0, ShowArms: 0b, FallFlying: 0b, Small: 1b}
+
+# ポータル
+  summon minecraft:block_display 27 64 16 {UUID:[I; 2106,5308417,10,1],block_state: {Name: "minecraft:respawn_anchor", Properties: {charges: "4"}}, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.5f, 1.0f, 1.5f], translation: [-0.75f, 0.0f, -0.75f]}, view_range: 2.0f}
+  summon minecraft:interaction 27.50 65.00 16.50 {UUID:[I; 2106,5308417,10,2],height: 0.01f, width: 2.0f}
+
+# 掲示板
+  summon minecraft:interaction 8.50 64.10 27.50 {UUID:[I; 2106,5308417,11,1],Tags: ["Guide_Mapboard"], height: 0.4f, width: 0.4f}
+  summon minecraft:block_display 8.5 64.30 27.5 {UUID:[I; 2106,5308417,11,2],block_state: {Name: "minecraft:beacon"}, brightness: {block: 15, sky: 15}, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.4f, 0.4f, 0.4f], translation: [-0.2f, -0.2f, -0.2f]}}
+  summon minecraft:painting 6.50 65.50 27.03 {UUID:[I; 2106,5308417,11,3],variant: "minecraft:tides",  block_pos: [I; 6, 65, 27], Invulnerable: 1b, facing: 0b, Rotation: [0.0f, 0.0f]}
+  summon minecraft:interaction 6.65 64.73 26.98 {UUID:[I; 2106,5308417,11,10],Tags: ["MapIcon_00"], height: 0.164f, width: 0.1655f, data:{Function:"world:home/map_board/current"}}
+  summon minecraft:interaction 7.14 64.96 26.91 {UUID:[I; 2106,5308417,11,11],Tags: ["MapIcon_01"], height: 0.305f, width: 0.3050f}
+  summon minecraft:interaction 6.07 64.80 26.68 {UUID:[I; 2106,5308417,11,12],Tags: ["MapIcon_02"], height: 0.445f, width: 0.7740f}
+  summon minecraft:interaction 6.39 64.19 26.84 {UUID:[I; 2106,5308417,11,13],Tags: ["MapIcon_03"], height: 0.492f, width: 0.4460f}
+  summon minecraft:interaction 5.96 64.28 26.88 {UUID:[I; 2106,5308417,11,14],Tags: ["MapIcon_04"], height: 0.258f, width: 0.3750f}
+  summon minecraft:interaction 7.12 64.23 26.70 {UUID:[I; 2106,5308417,11,15],Tags: ["MapIcon_05"], height: 0.350f, width: 0.7275f}
+  summon minecraft:interaction 7.57 64.96 26.82 {UUID:[I; 2106,5308417,11,16],Tags: ["MapIcon_06"], height: 1.070f, width: 0.4950f}
+  summon minecraft:interaction 7.64 66.03 26.77 {UUID:[I; 2106,5308417,11,17],Tags: ["MapIcon_07"], height: 0.428f, width: 0.6000f}
+  summon minecraft:interaction 7.36 66.46 26.87 {UUID:[I; 2106,5308417,11,18],Tags: ["MapIcon_08"], height: 0.398f, width: 0.3990f}
+  summon minecraft:interaction 6.84 66.34 26.79 {UUID:[I; 2106,5308417,11,19],Tags: ["MapIcon_09"], height: 0.494f, width: 0.5450f}
+  summon minecraft:interaction 6.10 66.46 26.78 {UUID:[I; 2106,5308417,11,20],Tags: ["MapIcon_10"], height: 0.375f, width: 0.6000f}
+  summon minecraft:interaction 6.32 65.62 26.80 {UUID:[I; 2106,5308417,11,21],Tags: ["MapIcon_11"], height: 0.493f, width: 0.5400f}
+  summon minecraft:interaction 5.81 65.69 26.91 {UUID:[I; 2106,5308417,11,22],Tags: ["MapIcon_12"], height: 0.328f, width: 0.3060f}
+  summon minecraft:interaction 5.38 65.57 26.86 {UUID:[I; 2106,5308417,11,23],Tags: ["MapIcon_13"], height: 0.516f, width: 0.4230f}
+  summon minecraft:interaction 5.55 64.42 26.90 {UUID:[I; 2106,5308417,11,24],Tags: ["MapIcon_14"], height: 0.350f, width: 0.3300f}
+  summon minecraft:interaction 7.46 64.61 26.90 {UUID:[I; 2106,5308417,11,25],Tags: ["MapIcon_15"], height: 0.350f, width: 0.3300f}
+  summon minecraft:interaction 5.57 66.09 26.87 {UUID:[I; 2106,5308417,11,26],Tags: ["MapIcon_16"], height: 0.398f, width: 0.3900f}
+  summon minecraft:interaction 5.55 65.22 26.93 {UUID:[I; 2106,5308417,11,27],Tags: ["MapIcon_17"], height: 0.28f,  width: 0.2800f}
+
+
+# 貿易商
+  summon minecraft:wandering_trader 42.50 64.06250 30.50 {UUID:[I; 2106,5308417,12,1],Invulnerable: 1b, Brain: {memories: {}}, Rotation: [90.0f, 0.0f], NoAI: 1b, Inventory: []}
+  summon minecraft:trader_llama 40.74 63.00 36.28 {UUID:[I; 2106,5308417,12,2],home_radius: 5, Invulnerable: 1b, Items: [], Rotation: [314.40347f, 7.136086f], home_pos: [I; 40, 63, 34], leash: [I; 40, 63, 34], Strength: 5, ChestedHorse: 1b, PersistenceRequired: 1b, Tame: 1b, Variant: 0, Health: 53.0f}
+  summon minecraft:interaction 40.50 63.35 34.50 {UUID:[I; 2106,5308417,12,3], height: 0.55f, width: 0.4f}
+
+# 教会
+  summon minecraft:interaction -21.50 71.0175 -54.50 {UUID:[I; 2106,5308417,13,1],Tags: ["Minister"], height: -1.955f, width: 0.605f, Passengers: [{UUID:[I; 2106,5308417,13,2],Invulnerable: 1b, NoAI: 1b, Brain: {memories: {}}, Age: 0, Rotation: [0.0f, 0.0f], attributes: [{id: "minecraft:movement_speed", base: 0.0d}], Inventory: [], id: "minecraft:villager", VillagerData: {type: "minecraft:plains", profession: "minecraft:cleric", level: 99}}]}
+  summon minecraft:interaction -20.50 72.00 -54.50 {UUID:[I; 2106,5308417,13,3],Tags: ["Flower_Church"], height: 0.4f, width: 0.4f, Rotation: [0.0f, 0.0f]}
+  summon minecraft:interaction -21.50 72.99 -51.50 {UUID:[I; 2106,5308417,13,4],Tags: ["Bell"], height: 5.01f, width: 0.2f, Rotation: [0.0f, 0.0f]}
+  #summon minecraft:painting -27.00 72.00 -54.97 {UUID:[I; 2106,5308417,13,5],variant: "minecraft:fire",  block_pos: [I; -28, 71, -55], Rotation: [0.0f, 0.0f], Fire: -1s, Invulnerable: 1b, facing: 0b}
+  #summon minecraft:painting -24.00 72.00 -54.97 {UUID:[I; 2106,5308417,13,6],variant: "minecraft:water",  block_pos: [I; -25, 71, -55], Rotation: [0.0f, 0.0f], Fire: -1s, Invulnerable: 1b, facing: 0b}
+  #summon minecraft:painting -21.00 72.00 -54.97 {UUID:[I; 2106,5308417,13,7],variant: "minecraft:wind",  block_pos: [I; -20, 71, -55], Rotation: [0.0f, 0.0f], Fire: -1s, Invulnerable: 1b, facing: 0b}
+  #summon minecraft:painting -18.00 72.00 -54.97 {UUID:[I; 2106,5308417,13,8],variant: "minecraft:earth",  block_pos: [I; -17, 71, -55], Rotation: [0.0f, 0.0f], Fire: -1s, Invulnerable: 1b, facing: 0b}
+  summon minecraft:interaction -3.50 68.00 -51.50 {UUID:[I; 2106,5308417,13,9], Tags: ["Ghost"], height: 1.95f, width: 0.6f}
+
+# としょんか
+  summon minecraft:interaction 18.50 75.56 -51.92 {UUID:[I; 2106,5308417,14,1], Tags: ["yourname"], height: 0.38f, width: 0.15f, Rotation: [0.0f, 0.0f]}
+  summon minecraft:item_display 18.5 75.75 -52.1 {UUID:[I; 2106,5308417,14,2],brightness: {block: 15, sky: 15}, item: {count: 1, id: "minecraft:book"}, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], right_rotation: [0.0f, -0.7071068f, 0.0f, 0.7071068f], scale: [0.5f, 0.5f, 0.5f], translation: [0.0f, 0.0f, 0.0f]}}
+  summon minecraft:painting 11.00 76.00 -45.03 {UUID:[I; 2106,5308417,14,3],variant: "minecraft:match", block_pos: [I; 11, 76, -46], Invulnerable: 1b, facing: 2b, Rotation: [180.0f, 0.0f]}
+  summon minecraft:painting 14.00 77.50 -43.03 {UUID:[I; 2106,5308417,14,4],variant: "minecraft:creebet", block_pos: [I; 14, 77, -44], Invulnerable: 1b, facing: 2b, Rotation: [180.0f, 0.0f]}
+  summon minecraft:painting 18.00 77.50 -45.03 {UUID:[I; 2106,5308417,14,5],variant: "minecraft:courbet", block_pos: [I; 18, 77, -46], Invulnerable: 1b, facing: 2b, Rotation: [180.0f, 0.0f]}
+  summon minecraft:painting 22.50 77.50 -45.03 {UUID:[I; 2106,5308417,14,6],variant: "minecraft:aztec", block_pos: [I; 22, 77, -46], Invulnerable: 1b, facing: 2b, Rotation: [180.0f, 0.0f]}
+  summon minecraft:painting 22.50 77.50 -50.97 {UUID:[I; 2106,5308417,14,7],variant: "minecraft:plant", block_pos: [I; 22, 77, -51], Invulnerable: 1b, facing: 0b, Rotation: [0.0f, 0.0f]}
+  summon minecraft:painting 18.50 77.50 -50.97 {UUID:[I; 2106,5308417,14,8],variant: "minecraft:alban", block_pos: [I; 18, 77, -51], Invulnerable: 1b, facing: 0b, Rotation: [0.0f, 0.0f]}
+  summon minecraft:painting 14.00 77.50 -50.97 {UUID:[I; 2106,5308417,14,9],variant: "minecraft:sunset", block_pos: [I; 15, 77, -51], Invulnerable: 1b, facing: 0b, Rotation: [0.0f, 0.0f]}
+
+# 預かり屋
+  summon minecraft:interaction 44.50 65.955 -30.50 {UUID:[I; 2106,5308417,15,1],Tags: ["Depositor"], height: -1.955f, width: 0.605f, Rotation: [-171.53113f, 47.050735f], Passengers: [{UUID:[I; 2106,5308417,15,2], NoAI:1b, Silent: 1b,  Xp: 0, RestocksToday: 0, LeftHanded: 0b, FoodLevel: 0b, LastRestock: 0L, Invulnerable: 1b, Brain: {memories: {}}, Age: 0, Rotation: [-99.462296f, 0.0f], HurtByTimestamp: 0, attributes: [{id: "minecraft:movement_speed", base: 0.0d}], ForcedAge: 0, Inventory: [], PersistenceRequired: 0b, Gossips: [], id: "minecraft:villager", Motion: [0.004488132812800189d, -0.0784000015258789d, -7.477730598238524E-4d], VillagerData: {type: "minecraft:plains", profession: "minecraft:mason", level: 99}, FallFlying: 0b, CanPickUpLoot: 1b, Pos: [44.5d, 63.999999957084654d, -30.5d], LastGossipDecay: 29147469L}]}
+  summon minecraft:glow_item_frame 41.97 65.50 -32.50 {UUID:[I; 2106,5308417,15,3], Item: {id: "minecraft:bundle", count: 1}, block_pos: [I; 41, 65, -33], Invulnerable: 1b, Fixed: 1b, Rotation: [90.0f, 0.0f], Facing: 4b}
+  summon minecraft:interaction 49.50 66.00 -29.60 {UUID:[I; 2106,5308417,15,4],Tags: ["Deposit"], height: 1.0f, width: 1.0f, Rotation: [0.0f, 0.0f]}
+  summon minecraft:glow_item_frame 49.50 66.50 -30.03 {UUID:[I; 2106,5308417,15,5],block_pos: [I; 49, 66, -31], Invulnerable: 1b, Fixed: 1b, Rotation: [180.0f, 0.0f], Facing: 2b}
+  summon minecraft:interaction 53.40 66.00 -30.50 {UUID:[I; 2106,5308417,15,6],Tags: ["Deposit"], height: 1.0f, width: 1.0f, Rotation: [0.0f, 0.0f]}
+  summon minecraft:glow_item_frame 52.97 66.50 -30.50 {UUID:[I; 2106,5308417,15,7],block_pos: [I; 52, 66, -31], Invulnerable: 1b, Fixed: 1b, Rotation: [090.0f, 0.0f], Facing: 4b}
+  summon minecraft:interaction 45.60 71.00 -38.50 {UUID:[I; 2106,5308417,15,8],Tags: ["Deposit"], height: 1.0f, width: 1.0f, Rotation: [0.0f, 0.0f]}
+  summon minecraft:glow_item_frame 46.03 71.50 -38.50 {UUID:[I; 2106,5308417,15,9],block_pos: [I; 46, 71, -39], Invulnerable: 1b, Fixed: 1b, Rotation: [270.0f, 0.0f], Facing: 5b}
+  summon minecraft:interaction 45.60 71.00 -35.50 {UUID:[I; 2106,5308417,15,10],Tags: ["Deposit"], height: 1.0f, width: 1.0f, Rotation: [0.0f, 0.0f]}
+  summon minecraft:glow_item_frame 46.03 71.50 -35.50 {UUID:[I; 2106,5308417,15,11],block_pos: [I; 46, 71, -36], Invulnerable: 1b, Fixed: 1b, Rotation: [270.0f, 0.0f], Facing: 5b}
+  summon minecraft:interaction 45.60 71.00 -32.50 {UUID:[I; 2106,5308417,15,12],Tags: ["Deposit"], height: 1.0f, width: 1.0f, Rotation: [0.0f, 0.0f]}
+  summon minecraft:glow_item_frame 46.03 71.50 -32.50 {UUID:[I; 2106,5308417,15,13],block_pos: [I; 46, 71, -33], Invulnerable: 1b, Fixed: 1b, Rotation: [270.0f, 0.0f], Facing: 5b}
+  summon minecraft:interaction 48.50 71.00 -29.60 {UUID:[I; 2106,5308417,15,14],Tags: ["Deposit"], height: 1.0f, width: 1.0f, Rotation: [0.0f, 0.0f]}
+  summon minecraft:glow_item_frame 48.50 71.50 -30.03 {UUID:[I; 2106,5308417,15,15],block_pos: [I; 48, 71, -31], Invulnerable: 1b, Fixed: 1b, Rotation: [180.0f, 0.0f], Facing: 2b}
+  summon minecraft:interaction 51.50 71.00 -29.60 {UUID:[I; 2106,5308417,15,16],Tags: ["Deposit"], height: 1.0f, width: 1.0f, Rotation: [0.0f, 0.0f]}
+  summon minecraft:glow_item_frame 51.50 71.50 -30.03 {UUID:[I; 2106,5308417,15,17],block_pos: [I; 51, 71, -31], Invulnerable: 1b, Fixed: 1b, Rotation: [180.0f, 0.0f], Facing: 2b}
+
+## 宿屋
+  # tetoshia
+    summon minecraft:painting 49.00 70.00 -17.03 {UUID:[I; 2106,5308417,16,1],variant: "minecraft:baroque", block_pos: [I; 49, 70, -18], Invulnerable: 1b, facing: 2b, Rotation: [180.0f, 0.0f], Fire: -1s}
+    summon minecraft:painting 52.00 71.50 -20.03 {UUID:[I; 2106,5308417,16,2],variant: "minecraft:pool", block_pos: [I; 52, 71, -21], Invulnerable: 1b, facing: 2b, Rotation: [180.0f, 0.0f], Fire: -1s}
+    summon minecraft:interaction 51.50 70.99 -22.50 {UUID:[I; 2106,5308417,16,3],height: 1.0f, Invulnerable: 1b, response: 0b, width: 1.0f, Rotation: [0.0f, 0.0f]}
+    summon minecraft:item_frame 51.50 70.50 -24.97 {UUID:[I; 2106,5308417,16,4],Invisible: 0b, ItemDropChance: 1.0f, ItemRotation: 0b, block_pos: [I; 51, 70, -25], Invulnerable: 1b, Fixed: 0b, Rotation: [0.0f, 0.0f], Facing: 3b, Fire: -1s}
+    summon minecraft:glow_item_frame 51.50 69.50 -19.03 {UUID:[I; 2106,5308417,16,5],Item: {id: "minecraft:writable_book", count: 1}, Invisible: 0b, ItemDropChance: 1.0f, ItemRotation: 0b, block_pos: [I; 51, 69, -20], Invulnerable: 1b, Fixed: 0b, Rotation: [180.0f, 0.0f], Facing: 2b, Fire: -1s}
+    summon minecraft:painting 48.50 69.00 -24.97 {UUID:[I; 2106,5308417,16,6],variant: "minecraft:prairie_ride", block_pos: [I; 48, 69, -25], Invulnerable: 1b, facing: 0b, Rotation: [0.0f, 0.0f], Fire: -1s}
+    summon minecraft:interaction 49.50 69.99 -24.50 {UUID:[I; 2106,5308417,16,7],height: 0.4f, Invulnerable: 1b, response: 0b, width: 0.4f, Rotation: [0.0f, 0.0f]}
+    summon minecraft:interaction 48.50 68.5625 -24.50 {UUID:[I; 2106,5308417,16,8],Tags: ["tetoshia"], height: 1.0f, Invulnerable: 1b, response: 0b, width: 0.3f, Rotation: [0.0f, 0.0f]}
+    summon minecraft:armor_stand 48.50 68.5625 -24.50 {UUID:[I; 2106,5308417,16,9], Invulnerable: 1b, Brain: {memories: {}}, Pose: {LeftLeg: [0.0f, 0.0f, 354.0f], LeftArm: [0.0f, 0.0f, 354.0f], RightArm: [0.0f, 0.0f, 6.0f], RightLeg: [0.0f, 0.0f, 6.0f], Head: [354.0f, 0.0f, 0.0f]}, Rotation: [-45.0f, 0.0f], HurtByTimestamp: 0, attributes: [{id: "minecraft:armor", base: 0.0d}, {id: "minecraft:armor_toughness", base: 0.0d}, {id: "minecraft:movement_speed", base: 0.7d}, {id: "minecraft:waypoint_transmit_range", base: 0.0d}], Invisible: 0b, Motion: [0.0d, -0.04760748099525583d, 0.0d], NoBasePlate: 1b, equipment: {head: {id: "minecraft:player_head", count: 1, components: {"minecraft:profile": {name: "tetoshia", id: [I; 1620837115, 2128168856, -1349963631, -83639420], properties: [{value: "ewogICJ0aW1lc3RhbXAiIDogMTcyODI2ODQwODI3NCwKICAicHJvZmlsZUlkIiA6ICI2MDljMDJmYjdlZDk0Nzk4YWY4OTMwOTFmYjAzYzM4NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0ZXRvc2hpYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85MmJmY2Q3M2YxOTI1ZGVjZjUzMDczMmQ0NjRkMTVmODRhNTY5YTY1MjhkMWRlN2NiOWVjZDI0MzYyNjExYmNhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=", name: "textures", signature: "RhrA/6qzglfEMwg2DZy6V19rfumqvw+l+pp9PIEp2feHOCZ/uWfW9oSPzF2GW3e9sA2ZmKxHMrrNtS8w5Dub45rCJZwhw7eFKMCRqQuQxecL9620YwAq6/MmmH61PEx06xWvZbu0APxuvlnWqBKtFMUYYl7AVTaAgyvG9s11J86gnreC/nVBXB1A/dLsFy4y/7wSx6foTsk4CNYYeLclgXjwMkv9N/6GSasiIERpIVm8ktJ14i2gI0Wgqc8gryc3LDLxyvu3/hHr4lZ2hz3ug+JjDsnGE55z8jOwOJ+jRYg2oowJL/+tdT4DSkQC+atwJx0vsm3ZgSSFNaoWKCC5MoR0Cp3NhqhlCCoG63MRVdSWGFUkfwqZuFb34iWyrpeRFI2/3FcdFaslD23wGAX4GiroTO7ZQ5MMN1KjyTw7hVyJEhoYl12Mbsl2KUETztIJthMjxHwlRoDEJn/hdZoGgmit9E9KlqRVJdVzJ4HPc/NRYoQwJsjaOn6yDH048qcS5Klgo7FVwyqZ8EjY3cIaOMgKr6mvNRa4K4OWUDAiAuSsEkg0GRdy7BLFprw7ZiLnQuXoyn2Qr5CSDajyrP9YuC+XlgMXt80e4R6o+Qy9iq5iHHvb9VMQTdiavLjoKAYXBuxWacVGB8KljaYzeuV0m10iwGwgCyyprr7sJ9BSMWA="}]}, "minecraft:note_block_sound": "minecraft:entity.cat.stray_ambient"}}, feet: {id: "minecraft:leather_boots", count: 1, components: {"minecraft:dyed_color": 952064}}, legs: {id: "minecraft:leather_leggings", count: 1, components: {"minecraft:dyed_color": 1564160, "minecraft:trim": {material: "minecraft:quartz", pattern: "minecraft:tide"}}}, chest: {id: "minecraft:leather_chestplate", count: 1, components: {"minecraft:dyed_color": 1699840, "minecraft:trim": {material: "minecraft:iron", pattern: "minecraft:dune"}}}}, DisabledSlots: 4144959, ShowArms: 1b, FallFlying: 0b, Small: 1b}
+    summon minecraft:interaction 53.50 68.99 -21.50 {UUID:[I; 2106,5308417,16,10],height: 0.4f, Invulnerable: 1b, response: 0b, width: 0.4f, Rotation: [0.0f, 0.0f]}
+    setblock 52 69 -20 minecraft:scaffolding[bottom=false,distance=0,waterlogged=false]
+    setblock 52 68 -20 minecraft:birch_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    setblock 51 70 -25 minecraft:oak_pressure_plate[powered=false]
+    setblock 51 69 -25 minecraft:spruce_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]
+    setblock 51 71 -24 minecraft:lever[face=ceiling,facing=west,powered=false]
+    setblock 52 71 -25 minecraft:oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    setblock 52 69 -25 minecraft:birch_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
+    setblock 52 68 -24 minecraft:jungle_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
+    setblock 52 68 -23 minecraft:bamboo_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
+    setblock 53 71 -22 minecraft:oak_fence_gate[facing=east,in_wall=false,open=false,powered=false]
+    setblock 49 70 -23 minecraft:warped_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]
+    setblock 50 68 -23 minecraft:jungle_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
+    setblock 48 71 -24 minecraft:warped_fence_gate[facing=west,in_wall=false,open=true,powered=false]
+    setblock 48 68 -24 minecraft:campfire[facing=west,lit=false,signal_fire=false,waterlogged=false]
+    setblock 49 69 -25 minecraft:spruce_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
+    setblock 53 68 -22 minecraft:cherry_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+
+  # 廊下
+    summon minecraft:interaction 51.50 74.00 20.50 {UUID:[I; 2106,5308417,16,11],height: 0.4f, Invulnerable: 1b, response: 0b, width: 0.4f, Rotation: [0.0f, 0.0f]}
+    summon minecraft:painting 47.03 75.50 15.00 {UUID:[I; 2106,5308417,16,12],variant: "minecraft:sea", block_pos: [I; 47, 75, 15], Invulnerable: 1b, facing: 3b, Rotation: [270.0f, 0.0f], Fire: -1s}
+
+  # oubai
+    summon minecraft:interaction 44.50 73.00 18.50 {UUID:[I; 2106,5308417,16,13],Tags: ["Boots_Oubai"], height: 1.0f, Invulnerable: 1b, response: 0b, width: 0.5f, Rotation: [0.0f, 0.0f]}
+    summon minecraft:armor_stand 44.50 73.00 18.50 {UUID:[I; 2106,5308417,16,14], Invulnerable: 1b, Brain: {memories: {}}, Pose: {}, Rotation: [-90.0f, 0.0f], HurtByTimestamp: 0, attributes: [{id: "minecraft:armor", base: 0.0d}, {id: "minecraft:armor_toughness", base: 0.0d}, {id: "minecraft:movement_speed", base: 0.7d}, {id: "minecraft:knockback_resistance", base: 0.0d}], Invisible: 1b, NoGravity: 1b, NoBasePlate: 1b, equipment: {feet: {id: "minecraft:netherite_boots", count: 1}}, DisabledSlots: 4144959, ShowArms: 0b, FallFlying: 0b, Fire: -1s, Small: 1b}
+    summon minecraft:interaction 39.50 76.00 13.50 {UUID:[I; 2106,5308417,16,15],height: 0.4f, Invulnerable: 1b, response: 0b, width: 0.4f, Rotation: [0.0f, 0.0f]}
+    summon minecraft:interaction 39.50 74.00 14.50 {UUID:[I; 2106,5308417,16,16],Tags: ["Oubai"], height: 1.0f, Invulnerable: 1b, response: 0b, width: 0.3f, Rotation: [0.0f, 0.0f]}
+    summon minecraft:armor_stand 39.50 74.00 14.50 {UUID:[I; 2106,5308417,16,17], Invulnerable: 1b, Brain: {memories: {}}, Pose: {LeftLeg: [349.0f, 0.0f, 0.0f], LeftArm: [0.0f, 15.0f, 0.0f], RightArm: [333.0f, 0.0f, 0.0f], RightLeg: [7.0f, 0.0f, 0.0f], Head: [347.0f, 348.0f, 0.0f], Body: [358.0f, 0.0f, 0.0f]}, Rotation: [0.0f, 0.0f], HurtByTimestamp: 0, attributes: [{id: "minecraft:armor", base: 0.0d}, {id: "minecraft:armor_toughness", base: 0.0d}, {id: "minecraft:movement_speed", base: 0.7d}, {id: "minecraft:waypoint_transmit_range", base: 0.0d}], Invisible: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], NoBasePlate: 1b, equipment: {head: {id: "minecraft:player_head", count: 1, components: {"minecraft:profile": {id: [I; 718984754, 939675984, -1880121179, -1155775541], properties: [{value: "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2RiMTRhOWI2NTQxMDhjOTgwMWMxZWZlODI0YTFiNWFhMTBjNGM1MmNjZDk4YzQxOTQ0ZTJkZDg2NWFiZWE0NyJ9fX0=", name: "textures"}]}, "minecraft:lore": ["https://namemc.com/skin/71b762da8ae4d8df"]}}, legs: {id: "minecraft:leather_leggings", count: 1, components: {"minecraft:dyed_color": 10981585}}, chest: {id: "minecraft:leather_chestplate", count: 1, components: {"minecraft:dyed_color": 14204646, "minecraft:trim": {material: "minecraft:lapis", pattern: "minecraft:vex"}}}}, DisabledSlots: 4144959, ShowArms: 1b, FallFlying: 0b, Small: 1b}
+
+  # moco
+    summon minecraft:interaction 44.80 79.26 15.50 {UUID:[I; 2106,5308417,16,18],Tags: ["moco"],  height: 1.0f, Invulnerable: 1b, response: 0b, width: 0.3f, Rotation: [0.0f, 0.0f]}
+    summon minecraft:armor_stand 44.80 79.26 15.50 {UUID:[I; 2106,5308417,16,19],Invulnerable: 1b, Brain: {memories: {}}, Pose: {LeftLeg: [281.0f, 338.0f, 344.0f], LeftArm: [12.0f, 0.0f, 358.0f], RightArm: [12.0f, 0.0f, 4.0f], RightLeg: [283.0f, 16.0f, 22.0f], Head: [350.0f, 0.0f, 0.0f], Body: [354.0f, 0.0f, 0.0f]}, Rotation: [55.0f, 0.0f], HurtByTimestamp: 0, attributes: [{id: "minecraft:armor", base: 0.0d}, {id: "minecraft:armor_toughness", base: 0.0d}, {id: "minecraft:movement_speed", base: 0.7d}, {id: "minecraft:waypoint_transmit_range", base: 0.0d}], Invisible: 0b, NoGravity: 1b, NoBasePlate: 1b, equipment: {head: {id: "minecraft:player_head", count: 1, components: {"minecraft:profile": {name: "stla_Moco", id: [I; -275624527, 1419725893, -1208206422, 271665113], properties: [{value: "ewogICJ0aW1lc3RhbXAiIDogMTczMDA5MzQ3NDg2MSwKICAicHJvZmlsZUlkIiA6ICJlZjkyNGRiMTU0OWY0YzQ1YjdmYzNiYWExMDMxNDdkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzdGxhX01vY28iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZmNTNmOTNjZGI4YTlmOGU0NzFjNGZlYjg0N2QxODY2ZWJkMGIwZWNhYTUyNjRhYjA0NmM1YWZkNjhjNTE3MyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9", name: "textures"}]}}}, feet: {id: "minecraft:leather_boots", count: 1, components: {"minecraft:dyed_color": 6184542}}, legs: {id: "minecraft:leather_leggings", count: 1, components: {"minecraft:dyed_color": 2368548, "minecraft:trim": {material: "minecraft:netherite", pattern: "minecraft:silence"}}}, chest: {id: "minecraft:leather_chestplate", count: 1, components: {"minecraft:dyed_color": 2368548, "minecraft:trim": {material: "minecraft:iron", pattern: "minecraft:vex"}}}}, DisabledSlots: 4144959, ShowArms: 1b, FallFlying: 0b, Fire: -1s, Small: 1b}
+    summon minecraft:interaction 42.50 80.00 15.50 {UUID:[I; 2106,5308417,16,20], height: 0.4f, Invulnerable: 1b, response: 0b, width: 0.4f, Rotation: [0.0f, 0.0f]}
+
+  # 最上階
+    summon minecraft:interaction 46.50 79.00 -7.00 {UUID:[I; 2106,5308417,16,21],height: 2.0f, Invulnerable: 1b, response: 0b, width: 2.0f, Rotation: [0.0f, 0.0f]}
+    summon minecraft:painting 42.50 81.50 -5.97 {UUID:[I; 2106,5308417,16,22],variant: "minecraft:endboss",  block_pos: [I; 42, 81, -6], Invulnerable: 1b, facing: 0b, Rotation: [0.0f, 0.0f], Fire: -1s}
+    summon minecraft:item_frame 44.50 80.03 -10.50 {UUID:[I; 2106,5308417,16,23], Item: {id: "minecraft:writable_book", count: 1}, Invisible: 0b, ItemDropChance: 1.0f, ItemRotation: 6b, block_pos: [I; 44, 80, -11], Invulnerable: 1b, Fixed: 1b, Rotation: [0.0f, -90.0f], Facing: 1b, Fire: -1s}
+    setblock 36 85 -4 minecraft:spruce_door[facing=east,half=lower,hinge=right,open=false,powered=false]
+    setblock 36 86 -4 minecraft:spruce_door[facing=east,half=upper,hinge=right,open=false,powered=false]
+
+
+# 採掘場
+  summon minecraft:text_display -38.5 63.5 -33.5 {UUID:[I; 2106,5308417,17,1],alignment: "center", background: 1073741824, billboard: "vertical", default_background: 0b, line_width: 200, see_through: 0b, shadow: 0b, text: "クリックして移動", text_opacity: 255}
+  summon minecraft:interaction -38.50 62.00 -33.50 {UUID:[I; 2106,5308417,17,2],Tags: ["to_mineshaft"],  height: 1.0f, Invulnerable: 1b, response: 0b, width: 1.0f, Rotation: [0.0f, 0.0f], Passengers: [{Tags: ["to_mineshaft"],  UUID:[I; 2106,5308417,17,3], Invulnerable: 1b, id: "minecraft:minecart", Motion: [0.020376260905630817d, 0.0d, 0.04565969848796056d], Rotation: [-90.0f, 0.0f], Pos: [-38.5d, 62.0d, -33.5d]}]}
+
+# 焚き火
+  summon minecraft:interaction -37.50 63.50 6.50 {UUID:[I; 2106,5308417,18,1],Tags: ["Chair"], height: 0.01f, Invulnerable: 1b, response: 0b, width: 1.0f, data:{Function:"world:home/chair/_"}, Rotation: [90.0f, 0.0f]}
+  summon minecraft:interaction -40.50 63.50 3.50 {UUID:[I; 2106,5308417,18,2],Tags: ["Chair"], height: 0.01f, Invulnerable: 1b, response: 0b, width: 1.0f, data:{Function:"world:home/chair/_"}, Rotation: [0.0f, 0.0f]}
+  summon minecraft:interaction -43.50 63.50 6.50 {UUID:[I; 2106,5308417,18,3],Tags: ["Chair"], height: 0.01f, Invulnerable: 1b, response: 0b, width: 1.0f, data:{Function:"world:home/chair/_"}, Rotation: [-90.0f, 0.0f]}
+  summon minecraft:interaction -40.50 63.50 9.50 {UUID:[I; 2106,5308417,18,4],Tags: ["Chair"], height: 0.01f, Invulnerable: 1b, response: 0b, width: 1.0f, data:{Function:"world:home/chair/_"}, Rotation: [-180.0f, 0.0f]}
+
+# 鑑定屋
+  summon minecraft:item_frame -41.50 65.03 39.50 {UUID:[I; 2106,5308417,19,1], Item: {id: "minecraft:golden_sword", count: 1, components: {"minecraft:enchantments": {"minecraft:knockback": 1, "minecraft:unbreaking": 1}}}, Invisible: 1b, ItemDropChance: 1.0f, ItemRotation: 5b, block_pos: [I; -42, 65, 39], Invulnerable: 1b, Fixed: 1b, Rotation: [0.0f, -90.0f], Facing: 1b, Fire: -1s}
+  summon minecraft:interaction -42.50 65.00 39.50 {UUID:[I; 2106,5308417,19,2], height: 0.751f, Invulnerable: 1b, response: 0b, width: 1.01f, Rotation: [-180.0f, 0.0f]}
+  summon minecraft:glow_item_frame -43.50 65.03 35.50 {UUID:[I; 2106,5308417,19,3], Item: {id: "minecraft:oak_log", count: 1}, Invisible: 1b, ItemDropChance: 1.0f, ItemRotation: 3b, block_pos: [I; -44, 65, 35], Invulnerable: 1b, Fixed: 1b, Rotation: [0.0f, -90.0f], Facing: 1b, Fire: -1s}
+  summon minecraft:glow_item_frame -40.50 66.50 41.97 {UUID:[I; 2106,5308417,19,4], Item: {id: "minecraft:bow", count: 1}, Invisible: 1b, ItemDropChance: 1.0f, ItemRotation: 0b, block_pos: [I; -41, 66, 41], Invulnerable: 1b, Fixed: 1b, Rotation: [180.0f, 0.0f], Facing: 2b, Fire: -1s}
+  summon minecraft:glow_item_frame -40.50 67.50 41.97 {UUID:[I; 2106,5308417,19,5], Item: {id: "minecraft:diamond_chestplate", count: 1}, Invisible: 1b, ItemDropChance: 1.0f, ItemRotation: 0b, block_pos: [I; -41, 67, 41], Invulnerable: 1b, Fixed: 1b, Rotation: [180.0f, 0.0f], Facing: 2b, Fire: -1s}
+  summon minecraft:glow_item_frame -41.50 67.50 40.97 {UUID:[I; 2106,5308417,19,6], Item: {id: "minecraft:golden_axe", count: 1}, Invisible: 1b, ItemDropChance: 1.0f, ItemRotation: 0b, block_pos: [I; -42, 67, 40], Invulnerable: 1b, Fixed: 1b, Rotation: [180.0f, 0.0f], Facing: 2b, Fire: -1s}
+
+# ショップ
+  summon minecraft:armor_stand -2.50 66.00 49.50 {UUID:[I; 2106,5308417,20,1], Invulnerable: 1b, Brain: {memories: {}}, Pose: {}, Rotation: [180.0f, 0.0f], HurtByTimestamp: 0, attributes: [{id: "minecraft:armor", base: 0.0d}, {id: "minecraft:armor_toughness", base: 0.0d}, {id: "minecraft:movement_speed", base: 0.7d}], Invisible: 0b, NoGravity: 1b, NoBasePlate: 0b, equipment: {mainhand: {id: "minecraft:stick", count: 1}, head: {id: "minecraft:leather_helmet", count: 1}, feet: {id: "minecraft:leather_boots", count: 1}, legs: {id: "minecraft:leather_leggings", count: 1}, chest: {id: "minecraft:leather_chestplate", count: 1}}, DisabledSlots: 4144959, ShowArms: 1b, FallFlying: 0b, Fire: -1s, Small: 0b}
+  summon minecraft:armor_stand -3.50 66.00 49.50 {UUID:[I; 2106,5308417,20,2], Invulnerable: 1b, Brain: {memories: {}}, Pose: {}, Rotation: [180.0f, 0.0f], HurtByTimestamp: 0, attributes: [{id: "minecraft:armor", base: 0.0d}, {id: "minecraft:armor_toughness", base: 0.0d}, {id: "minecraft:movement_speed", base: 0.7d}], Invisible: 0b, NoGravity: 1b, NoBasePlate: 0b, equipment: {mainhand: {id: "minecraft:golden_sword", count: 1}, head: {id: "minecraft:golden_helmet", count: 1}, feet: {id: "minecraft:golden_boots", count: 1}, legs: {id: "minecraft:golden_leggings", count: 1}, chest: {id: "minecraft:golden_chestplate", count: 1}}, DisabledSlots: 4144959, ShowArms: 1b, FallFlying: 0b, Fire: -1s, Small: 0b}
+  summon minecraft:armor_stand -4.50 66.00 49.50 {UUID:[I; 2106,5308417,20,3], Invulnerable: 1b, Brain: {memories: {}}, Pose: {}, Rotation: [180.0f, 0.0f], HurtByTimestamp: 0, attributes: [{id: "minecraft:armor", base: 0.0d}, {id: "minecraft:armor_toughness", base: 0.0d}, {id: "minecraft:movement_speed", base: 0.7d}], Invisible: 0b, NoGravity: 1b, NoBasePlate: 0b, equipment: {mainhand: {id: "minecraft:trident", count: 1}, head: {id: "minecraft:chainmail_helmet", count: 1}, feet: {id: "minecraft:chainmail_boots", count: 1}, legs: {id: "minecraft:chainmail_leggings", count: 1}, chest: {id: "minecraft:chainmail_chestplate", count: 1}}, DisabledSlots: 4144959, ShowArms: 1b, FallFlying: 0b, Fire: -1s, Small: 0b}
+  summon minecraft:armor_stand -5.50 66.00 49.50 {UUID:[I; 2106,5308417,20,4], Invulnerable: 1b, Brain: {memories: {}}, Pose: {}, Rotation: [180.0f, 0.0f], HurtByTimestamp: 0, attributes: [{id: "minecraft:armor", base: 0.0d}, {id: "minecraft:armor_toughness", base: 0.0d}, {id: "minecraft:movement_speed", base: 0.7d}], Invisible: 0b, NoGravity: 1b, NoBasePlate: 0b, equipment: {mainhand: {id: "minecraft:iron_axe", count: 1}, offhand: {id: "minecraft:shield", count: 1}, head: {id: "minecraft:iron_helmet", count: 1}, feet: {id: "minecraft:iron_boots", count: 1}, legs: {id: "minecraft:iron_leggings", count: 1}, chest: {id: "minecraft:iron_chestplate", count: 1}}, DisabledSlots: 4144959, ShowArms: 1b, FallFlying: 0b, Fire: -1s, Small: 0b}
+  summon minecraft:armor_stand -6.50 66.00 49.50 {UUID:[I; 2106,5308417,20,5], Invulnerable: 1b, Brain: {memories: {}}, Pose: {}, Rotation: [180.0f, 0.0f], HurtByTimestamp: 0, attributes: [{id: "minecraft:armor", base: 0.0d}, {id: "minecraft:armor_toughness", base: 0.0d}, {id: "minecraft:movement_speed", base: 0.7d}], Invisible: 0b, NoGravity: 1b, NoBasePlate: 0b, equipment: {mainhand: {id: "minecraft:bow", count: 1}, head: {id: "minecraft:diamond_helmet", count: 1}, feet: {id: "minecraft:diamond_boots", count: 1}, legs: {id: "minecraft:diamond_leggings", count: 1}, chest: {id: "minecraft:diamond_chestplate", count: 1}}, DisabledSlots: 4144959, ShowArms: 1b, FallFlying: 0b, Fire: -1s, Small: 0b}
+  summon minecraft:armor_stand -7.50 66.00 49.50 {UUID:[I; 2106,5308417,20,6], Invulnerable: 1b, Brain: {memories: {}}, Pose: {}, Rotation: [-180.0f, 0.0f], HurtByTimestamp: 0, attributes: [{id: "minecraft:armor", base: 0.0d}, {id: "minecraft:armor_toughness", base: 0.0d}, {id: "minecraft:movement_speed", base: 0.7d}, {id: "minecraft:knockback_resistance", base: 0.0d}], Invisible: 0b, NoGravity: 1b, NoBasePlate: 0b, equipment: {mainhand: {id: "minecraft:mace", count: 1}, head: {id: "minecraft:netherite_helmet", count: 1}, feet: {id: "minecraft:netherite_boots", count: 1}, legs: {id: "minecraft:netherite_leggings", count: 1}, chest: {id: "minecraft:netherite_chestplate", count: 1}}, DisabledSlots: 4144959, ShowArms: 1b, FallFlying: 0b, Fire: -1s, Small: 0b}
+
+# ホーム
+  summon minecraft:item_frame -24.50 65.03 46.50 {UUID:[I; 2106,5308417,21,1], Item: {id: "minecraft:pumpkin_pie", count: 1}, Invisible: 0b, ItemDropChance: 1.0f, ItemRotation: 4b, block_pos: [I; -25, 65, 46], Invulnerable: 1b, Fixed: 1b, Rotation: [0.0f, -90.0f], Facing: 1b, Fire: -1s}
+  summon minecraft:item_frame -26.50 65.03 45.50 {UUID:[I; 2106,5308417,21,2], Item: {id: "minecraft:cooked_beef", count: 1}, Invisible: 0b, ItemDropChance: 1.0f, ItemRotation: 4b, block_pos: [I; -27, 65, 45], Invulnerable: 1b, Fixed: 1b, Rotation: [0.0f, -90.0f], Facing: 1b, Fire: -1s}
+  summon minecraft:interaction -24.50 65.00 49.50 {UUID:[I; 2106,5308417,21,3],height: 0.065f, Invulnerable: 1b, response: 0b, width: 0.65f, Rotation: [0.0f, 0.0f]}
+  summon minecraft:item_frame -25.50 64.50 48.97 {UUID:[I; 2106,5308417,21,4], Item: {id: "minecraft:heavy_weighted_pressure_plate", count: 1}, Invisible: 0b, ItemDropChance: 1.0f, ItemRotation: 4b, block_pos: [I; -26, 64, 48], Invulnerable: 1b, Fixed: 1b, Rotation: [180.0f, 0.0f], Facing: 2b, Fire: -1s}
+  summon minecraft:painting -17.03 66.50 47.00 {UUID:[I; 2106,5308417,21,5],variant: "minecraft:creebet",  block_pos: [I; -18, 66, 47], Invulnerable: 1b, facing: 1b, Rotation: [90.0f, 0.0f], Fire: -1s, fall_distance: 0.0d}
+  summon minecraft:armor_stand -22.50 69.00 44.50 {UUID:[I; 2106,5308417,21,6],Invulnerable: 1b, Brain: {memories: {}}, Pose: {}, Rotation: [0.0f, 0.0f], HurtByTimestamp: 0, attributes: [{id: "minecraft:armor", base: 0.0d}, {id: "minecraft:armor_toughness", base: 0.0d}, {id: "minecraft:gravity", base: 0.01d}, {id: "minecraft:movement_speed", base: 0.7d}], Invisible: 0b, Motion: [0.0d, -0.009800000190734863d, 0.0d], NoBasePlate: 0b, equipment: {feet: {id: "minecraft:leather_boots", count: 1}, chest: {id: "minecraft:golden_chestplate", count: 1}}, DisabledSlots: 4144959, ShowArms: 0b, FallFlying: 0b, Small: 0b}
+  summon minecraft:item_frame -21.50 69.50 47.97 {UUID:[I; 2106,5308417,21,7], Item: {id: "minecraft:quartz_stairs", count: 1}, Invisible: 0b, ItemDropChance: 1.0f, ItemRotation: 3b, block_pos: [I; -22, 69, 47], Invulnerable: 1b, Fixed: 1b, Rotation: [180.0f, 0.0f], Facing: 2b, Fire: -1s}
+  summon minecraft:item_frame -19.03 70.50 46.50 {UUID:[I; 2106,5308417,21,8], Item: {id: "minecraft:music_disc_cat", count: 1}, Invisible: 0b, ItemDropChance: 1.0f, ItemRotation: 0b, block_pos: [I; -20, 70, 46], Invulnerable: 1b, Fixed: 1b, Rotation: [90.0f, 0.0f], Facing: 4b, Fire: -1s}
+  summon minecraft:item_frame -19.03 70.50 45.50 {UUID:[I; 2106,5308417,21,9], Item: {id: "minecraft:clock", count: 1}, Invisible: 0b, ItemDropChance: 1.0f, ItemRotation: 0b, block_pos: [I; -20, 70, 45], Invulnerable: 1b, Fixed: 1b, Rotation: [90.0f, 0.0f], Facing: 4b, Fire: -1s}
+  summon minecraft:interaction -18.50 70.00 44.50 {UUID:[I; 2106,5308417,21,10],height: 0.4f, Invulnerable: 1b, response: 0b, width: 0.4f, Rotation: [0.0f, 0.0f]}
+  summon minecraft:chest_minecart -18.50 71.00 46.50 {UUID:[I; 2106,5308417,21,11],Invulnerable: 1b, Rotation: [0.0f, 0.0f], Items: []}
