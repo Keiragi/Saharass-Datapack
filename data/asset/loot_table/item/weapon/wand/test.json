@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "item_model": "saharass:diamond_wand",
+                "item_model": "saharass:weapon/wand/diamond",
                 "minecraft:unbreakable": {},
                 "minecraft:consumable": {
                   "consume_seconds": 2147483647,
