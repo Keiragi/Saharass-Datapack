@@ -9,7 +9,15 @@
 
 # ポータル
   summon minecraft:block_display 27 64 16 {UUID:[I; 2106,5308417,10,1],block_state: {Name: "minecraft:respawn_anchor", Properties: {charges: "4"}}, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.5f, 1.0f, 1.5f], translation: [-0.75f, 0.0f, -0.75f]}, view_range: 2.0f}
-  summon minecraft:interaction 27.50 65.00 16.50 {UUID:[I; 2106,5308417,10,2],height: 0.01f, width: 2.0f}
+  summon minecraft:interaction 27.50 65.00 16.50 {UUID:[I; 2106,5308417,10,2], height: 0.010f, width: 2.00f}
+  summon minecraft:interaction 23.50 64.00 12.50 {UUID:[I; 2106,5308417,10,3], height: 1.005f, width: 1.01f}
+  summon minecraft:interaction 23.50 64.00 20.50 {UUID:[I; 2106,5308417,10,4], height: 1.005f, width: 1.01f}
+  summon minecraft:interaction 31.50 64.00 20.50 {UUID:[I; 2106,5308417,10,5], height: 1.005f, width: 1.01f}
+  summon minecraft:interaction 31.50 64.00 12.50 {UUID:[I; 2106,5308417,10,6], height: 1.005f, width: 1.01f}
+  summon minecraft:block_display 23.50 64.00 12.50 {UUID:[I; 2106,5308417,10,7], transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.5f,0f,-0.5f],scale:[1f,1f,1f]},block_state:{Name:"minecraft:structure_block"}}
+  summon minecraft:block_display 23.50 64.00 20.50 {UUID:[I; 2106,5308417,10,8], transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.5f,0f,-0.5f],scale:[1f,1f,1f]},block_state:{Name:"minecraft:structure_block"}}
+  summon minecraft:block_display 31.50 64.00 20.50 {UUID:[I; 2106,5308417,10,9], transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.5f,0f,-0.5f],scale:[1f,1f,1f]},block_state:{Name:"minecraft:structure_block"}}
+  summon minecraft:block_display 31.50 64.00 12.50 {UUID:[I; 2106,5308417,10,10], transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.5f,0f,-0.5f],scale:[1f,1f,1f]},block_state:{Name:"minecraft:structure_block"}}
 
 # 掲示板
   summon minecraft:interaction 8.50 64.10 27.50 {UUID:[I; 2106,5308417,11,1],Tags: ["Guide_Mapboard"], height: 0.4f, width: 0.4f}
@@ -36,7 +44,7 @@
 
 
 # 貿易商
-  summon minecraft:wandering_trader 42.50 64.06250 30.50 {UUID:[I; 2106,5308417,12,1], DeathTime: 19, Invulnerable: 1b, Brain: {memories: {}}, Rotation: [90.0f, 0.0f], NoAI: 1b, Inventory: [], Offers: {}}
+  summon minecraft:wandering_trader 42.50 64.06250 30.50 {UUID:[I; 2106,5308417,12,1], DeathTime: 19, PersistenceRequired:1b, Invulnerable: 1b, Brain: {memories: {}}, Rotation: [90.0f, 0.0f], NoAI: 1b, Inventory: [], Offers: {}}
   summon minecraft:trader_llama 40.74 63.00 36.28 {UUID:[I; 2106,5308417,12,2], DeathTime: 19, home_radius: 5, Invulnerable: 1b, Items: [], Rotation: [314.40347f, 7.136086f], home_pos: [I; 40, 63, 34], leash: [I; 40, 63, 34], Strength: 5, ChestedHorse: 1b, PersistenceRequired: 1b, Tame: 1b, Variant: 0, Health: 53.0f}
   summon minecraft:interaction 40.50 63.35 34.50 {UUID:[I; 2106,5308417,12,3], height: 0.55f, width: 0.4f}
 
@@ -152,3 +160,10 @@
   summon minecraft:item_frame -19.03 70.50 45.50 {UUID:[I; 2106,5308417,21,9], Item: {id: "minecraft:clock", count: 1}, Invisible: 0b, ItemDropChance: 1.0f, ItemRotation: 0b, block_pos: [I; -20, 70, 45], Invulnerable: 1b, Fixed: 1b, Rotation: [90.0f, 0.0f], Facing: 4b, Fire: -1s}
   summon minecraft:interaction -18.50 70.00 44.50 {UUID:[I; 2106,5308417,21,10],height: 0.4f, Invulnerable: 1b, response: 0b, width: 0.4f, Rotation: [0.0f, 0.0f]}
   summon minecraft:chest_minecart -18.50 71.00 46.50 {UUID:[I; 2106,5308417,21,11],Invulnerable: 1b, Rotation: [0.0f, 0.0f], Items: []}
+
+# 鍛冶屋
+  summon minecraft:item_frame -27.50 65.03 -19.50 {UUID:[I; 2106,5308417,22,1], Invisible: 0b, ItemDropChance: 1.0f, ItemRotation: 0b, block_pos: [I; -28, 65, -20], Invulnerable: 0b, Fixed: 1b, Motion: [0.0d, 0.0d, 0.0d], Rotation: [0.0f, -90.0f], Facing: 1b, Fire: 0s, fall_distance: 0.0d, PortalCooldown: 0}
+  summon minecraft:item_frame -28.50 65.03 -19.50 {UUID:[I; 2106,5308417,22,2], Item: {id: "minecraft:raw_iron", count: 1}, Invisible: 0b, ItemDropChance: 1.0f, ItemRotation: 0b, block_pos: [I; -29, 65, -20], Invulnerable: 1b, Fixed: 1b, Motion: [0.0d, 0.0d, 0.0d], Rotation: [0.0f, -90.0f], Facing: 1b, Fire: 0s, fall_distance: 0.0d, PortalCooldown: 0}
+  summon minecraft:item_frame -29.50 65.03 -19.50 {UUID:[I; 2106,5308417,22,3], Item: {id: "minecraft:raw_copper", count: 1}, Invisible: 0b, ItemDropChance: 1.0f, ItemRotation: 0b, block_pos: [I; -30, 65, -20], Invulnerable: 1b, Fixed: 1b, Motion: [0.0d, 0.0d, 0.0d], Rotation: [0.0f, -90.0f], Facing: 1b, Fire: 0s, fall_distance: 0.0d, PortalCooldown: 0}
+  summon minecraft:painting -28.00 67.50 -16.03 {UUID:[I; 2106,5308417,22,4],variant: "minecraft:pool", block_pos: [I; -28, 67, -17], Invulnerable: 1b, facing: 2b, Rotation: [180.0f, 0.0f]}
+  summon minecraft:painting -26.50 67.50 -16.03 {UUID:[I; 2106,5308417,22,5],variant: "minecraft:bomb", block_pos: [I; -27, 67, -17], Invulnerable: 1b, facing: 2b, Rotation: [180.0f, 0.0f]}
